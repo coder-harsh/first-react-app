@@ -1,0 +1,38 @@
+.new-expense {
+    background-color: rgb(205, 151, 218);
+    padding: 1rem;
+    margin: 2rem auto;
+    width: 50rem;
+    max-width: 52%;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.new-expense button {
+    font: inherit;
+    cursor: pointer;
+    padding: 1rem 2rem;
+    border: 1px solid rebeccapurple;
+    background-color: rebeccapurple;
+    color: white;
+    border-radius: 12px;
+    margin-right: 1rem;
+}
+
+.new-expense button:hover,
+.new-expense button:active {
+    background-color: rgb(119, 13, 225);
+    border-color: rebeccapurple;
+}
+
+
+.new-expense button.alternative {
+    color: rebeccapurple;
+    border-color: transparent;
+    background-color: transparent;
+}
+
+.new-expense.alternative:hover,
+.new-expense.alternative:active {
+    background-color: bisque;
+}
